@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+   width: auto;
+    align-items: center;
+    background-color: black;
+}
+
+.contener {
+    width: 300px;
+    height: 45rem;
+    margin-left: 300px;
+    position: absolute;
+    /* justify-content: center;
+    justify-items: center; */
+    /* margin-left: 50%; */
+    background-image: url(/00_project/07_web/photo/1.jpg);
+    background-size: cover;
+    animation: chenging 20s linear infinite;
+    border: 5px solid black;
+    border-radius: 2px;
+    box-shadow: 2px 2px 3px 2px white;
+    background: none;
+}
+
+@keyframes chenging {
+  0% {
+    background-image: url(/00_project/07_web/photo/1.jpg);
+    background-size: cover;
+  }
+
+  10% {
+    background-image: url(/00_project/07_web/photo/2.jpg);
+    background-size: cover;
+  }
+
+  20% {
+    background-image: url(/00_project/07_web/photo/3.jpg);
+    background-size: cover;
+  }
+
+  30% {
+    background-image: url(/00_project/07_web/photo/4.jpg);
+    background-size: cover;
+  }
+
+  40% {
+    background-image: url(/00_project/07_web/photo/5.jpg);
+    background-size: cover;
+  }
+
+  50% {
+    background-image: url(/00_project/07_web/photo/6.jpg);
+    background-size: cover;
+  }
+
+  80% {
+    background-image: url(/00_project/07_web/photo/7.jpg);
+    background-size: cover;
+  }
+
+  100% {
+    background-image: url(/00_project/07_web/photo/8.jpg);
+    background-size: cover;
+  }
+}

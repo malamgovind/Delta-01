@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: black;
+}
+
+.contener {
+    background-color: purple;
+    background-color: transparent;
+    width: 50rem;
+    height: 50rem;
+    border-top: 1rem solid purple;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 4.5rem;
+}
+
+.contener div {
+    width: 0.5rem;
+    height: 20rem;
+    background-color: purple;
+    position: relative;
+}
+
+.contener div::before {
+    content: "";
+    position: absolute;
+    bottom: -3.5rem;
+    left: -2.25rem;
+    background-color: purple;
+    width: 5rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+
+.contener div:first-child {
+    animation: left-fire 2s linear infinite;
+    transform-origin: top left;
+}.contener div:last-child {
+    animation: right-fire 2s linear 1s infinite;
+    transform-origin: top left;
+}
+
+@keyframes left-fire {
+    0% {
+        rotate: 0deg;
+    }
+    25% {
+        rotate: 30deg;
+    }
+    50% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 0deg;
+    }
+}
+
+@keyframes right-fire {
+    0% {
+        rotate: 0deg;
+    }
+    25% {
+        rotate: -30deg;
+    }
+    50% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 0deg;
+    }
+}
+
+.contener2 {
+    width: 15rem;
+    aspect-ratio: 1;
+    border-radius: 50% ;
+    background-color: purple;
+    position: relative;
+    bottom: 15rem;
+    animation: loading 2s linear infinite reverse;
+}
+
+.contener2::after {
+    content: "";
+    position: absolute;
+    aspect-ratio: 1;
+    width: 12.5rem;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.contener2::before {
+    content: "";
+    position: absolute;
+    margin-left: 5rem;
+    top: -2.5rem;
+    aspect-ratio: 1;
+    width: 12.5rem;
+    border-radius: 50%;
+    background-color: purple;
+    width: 5rem;
+    z-index: 1;
+    box-shadow: 2px 1px 30px 10px  purple;
+}
+
+@keyframes loading {
+    100% {
+        rotate: 360deg;
+    }
+}
+
+button {
+    width: 50vh;
+    aspect-ratio: 4;
+    border: 5px solid purple;
+    color: purple;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right:80rem;
+    margin-top: -50rem;
+    background-color: transparent;
+    position: relative;
+}
+
+button::before {
+    width: 50vh;
+    height: 2rem;
+    aspect-ratio: 4;
+    color: yellow;
+    font-size: 20px;
+    content: "SHAKE ME";
+    position: absolute;
+    overflow: hidden;
+    animation: hiden 2s linear infinite alternate;
+    border-right: 2px solid yellow;
+}   
+
+@keyframes hiden {
+0% {
+    width: 0px;
+}
+50% {
+    width: 120px;
+
+}
+100% {
+    width: 0px;
+}
+}
+
+button:hover {
+    width: 55vh;
+    aspect-ratio: 4;
+    font-size: 22px;
+    color: red;
+    border: 5px solid red;
+    animation: shake 0.3s linear infinite, coloradd 0.5s linear infinite;
+}
+
+@keyframes shake {
+    0% {
+        rotate: 20deg;
+    }
+    50% {
+        rotate: -20deg;
+    }
+    100% {
+        rotate: 20deg;
+    }
+}
+
+@keyframes coloradd {
+    0% {
+        background-color: black;
+    }
+    100% {
+        background-color: white;
+    }
+}
