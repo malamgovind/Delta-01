@@ -1,0 +1,1014 @@
+.contener {
+  /* background-color: lightblue; */
+  background-color: rgb(37, 36, 36);
+  top: 50px;
+  left: 50px;
+  width: 2410px;
+  height: 1085px;
+  position: relative;
+  border: 10px solid aqua;
+  box-shadow: 20px 20px 30px 2px rgb(15, 15, 15);
+}
+
+/* .contener2 {
+  list-style-position: inside;
+  background: linear-gradient(to right,
+          rgba(0, 168, 204, 0.3),
+          rgba(223, 189, 0, 0.3),
+          rgba(54, 38, 199, 0.3));
+} */
+
+.one img {
+ position: relative;
+  width: 600px;
+  top: 265px;
+  left: 300px;
+}
+
+.one .hed1{
+ position: relative;
+ font-size:60px;
+ font-weight: 800;
+ left: 950px;
+ top: -300px;
+ /* color: white; */
+}
+
+.one .hed1 h5 {
+  margin-top: -20px;
+}
+
+.one .hed1 p {
+height: 30px;
+margin-top: -50px;
+}
+
+.one .hed1 #play {
+  position: relative;
+  margin-top: -20px;
+  font-size: 30px;
+  width: 180px;
+  height: 50px;
+  border: 5px solid black;
+  color: black;
+  background-color: yellow;
+}
+
+.two #one_img {
+  width: 2410px;
+  height: 1080px;
+  animation: govind 5s linear;
+  }
+
+@keyframes govind {
+  0% { opacity: 0; }
+  50% {opacity: 0.5;}
+  75% {opacity: 1;}
+  100% { opacity: 1.4;}
+}
+
+.three {
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+      /* background-color: #f03838; */
+      font-family: Arial, sans-serif;
+      background-image: url(/00_project/06-web/3.jpg);
+      /* background-size:cover; */
+      /* background-repeat: no-repeat; */
+      /* background-size: auto; */
+      background-repeat: no-repeat;
+      width: 2410px;
+      height: 980px;
+}
+
+.three .h1 {
+  position: relative;
+  font-size: 50px;
+  margin-left: 450px;
+  top: 880px;
+}
+
+.three .loading-bar-contener {
+    width: 80%;
+    height: 16px;
+    background-color: #a88787;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+    left: 250px;
+    top: 820px;
+    /* right: 40px; */
+}
+
+.three .loading-bar {
+    height: 100%;
+      width: 0;
+      background-color: #f5e725;
+      transition: width 0.1s linear;
+      /* margin-top: -50px; */
+}
+
+.three .counter {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+  }
+
+  .three #counter {
+    /* padding-left: 30px; */
+    width: 280px;
+    height: 50px;
+    top: 850px;
+    left: 1100px;
+    /* right: 50px; */
+    /* background-color: rgb(157, 174, 197); */
+  }
+
+.four {
+  background-color: black;
+  color: white;
+  /* background: url(/00_project/06-web/z900.jpg); */
+  /* background-size: cover; */
+  position: relative;
+  font-size: 50px;
+  /* top: -800px; */
+  top: 330px;
+  border: 5px solid black;
+  box-shadow: 15px 15px 10px 2px rgb(249, 177, 255);
+
+  /* padding-top: -100px; */
+  padding-bottom: 50px;
+  padding-left: 3px;
+  height: 320px;
+  width: 630px;
+left: 900px;
+z-index: 1;
+}
+
+.four .mix {
+  position: relative;
+  color: red;
+  top: -50px;
+  height: 175px;
+  /* border-bottom: 5px solid black; */
+  /* background-color: yellow; */
+  text-decoration: underline white 5px;
+}
+
+/* .four h3 {
+  position: relative;
+  height: 50px;
+  margin-top: -50px;
+} */
+
+.four .icon {
+  position: relative;
+  left: 570px;
+  bottom: 110px;
+  color: red;
+}
+
+.four p {
+  font-size: 40px;
+  position: relative;
+  top: -160px;
+  left: 50px;
+  height: 20px;
+}
+
+.four a {
+  position: relative;
+  /* top: -50px; */
+  color: yellow;
+  font-size: 30px;
+  /* background: url(/00_project/06-web/); */
+}
+
+.four .A1 {
+  position: relative;
+  top: -170px;
+  /* bottom: 50px; */
+  left: 190px;
+  z-index: 1;
+}
+
+.four .A2 {
+  position: relative;
+  top: -120px;
+  /* bottom: 50px; */
+  /* left: -0px; */
+  right: 15px;
+  z-index: 1;
+}
+
+.four #okay {
+  position: relative;
+  height: 40px;
+  width: 140px;
+  font-size: 25px;
+  color: black;
+  background-color: rgb(90, 236, 156);
+  left: 217px;
+  top: -110px;
+}
+
+.five {
+  input[type="checkbox"] {
+    width: 25px; 
+    height: 25px; 
+}
+}
+
+.five .hed h1{
+  position: relative;
+  color: yellow;
+  text-align: right;
+  right: 80px;
+  top: -250px;
+  font-size: 50px;
+  text-shadow: 2px 6px 5px rgb(232, 255, 216);
+}
+
+.five .login {
+  /* font-size: 50px; */
+  position: relative;
+  left: 1000px;
+  top: 800px;
+  width: 400px;
+  height: 200px;
+}
+
+.five #a1 {
+  position: relative;
+  left: 10px;
+top: 700px;
+font-size: 25px; 
+width: 700px;
+}
+
+.five #a1 a {
+  color: yellow;
+}
+
+.five #a2 {
+  position: relative;
+  left: 10px;
+top: 710px;
+font-size: 25px; 
+width: 700px;
+}
+
+.five #a2 a {
+  color: yellow;
+}
+
+.five .login #Facebook {
+  width: 400px;
+  height: 50px;
+  font-size: 30px;
+  color: white;
+border: 1px  solid black;
+  background-color: blue;
+}
+
+.five .login p {
+  position: relative;
+  left: 110px;
+  font-size: 35px;
+  top: -20px;
+}
+
+.five .login #Guest {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  font-size: 25px;
+  left: 30px;
+  top: -30px;
+border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+
+.five .login #Google {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  font-size: 25px;
+left: 225px;
+/* top: px; */
+bottom: 28px;
+border: 2px solid black;
+background-color: white;
+  color: black;
+}
+
+.five #bg-video{
+  position: relative;
+  width: 100%;
+  height: 1090px;
+  object-fit: cover;
+  background-size: cover;
+  bottom: 395px;
+  /* transform: rotate(60dg); */
+  z-index: -1;
+}
+
+.six {
+  position: relative;
+  left: 950px;
+  top: 190px;
+  border: 5px solid black;
+  box-shadow: 5px 5px 8px 2px rgb(238, 210, 239);
+  background-color: rgb(47, 48, 48);
+  width: 500px;
+  height: 600px;
+}
+
+.six .detail h1 {
+  position:relative;
+  left: 150px;
+  top: 20px;
+  color: blue;
+  font-size: 50px;
+  text-decoration: underline;
+  font-family: 'Times New Roman';
+  /* background-color: transparent; */
+}
+
+.six .detail p {
+  position: relative;
+  left: 60px;
+}
+
+.six .login-page .email {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  width: 380px;
+  height: 30px;
+  font-size: 22px;
+  font-family:'Times New Roman';
+  padding-left: 10px;
+  border: 1px solid rgb(133, 131, 131);
+  border-radius: 3px;
+  background-color: rgb(236, 241, 246);
+}
+
+.six .login-page .email::placeholder {
+  position: relative;
+  font-family:'Times New Roman';
+  font-size: 22px;
+  /* font-weight: bold; */
+  color: rgb(68, 66, 66);
+  margin-top: 2px;
+  padding-left: 5px;
+  top: 0.7px;
+}
+
+.six .login-page .email:focus {
+  outline: none;
+}
+
+.six .login-page .password {
+  position: relative;
+    top: 80px;
+    left: 50px;
+    width: 383px;
+    height: 30px;
+    font-size: 22px;
+  font-family:'Times New Roman';
+    padding-left: 10px;
+    border: 1px solid rgb(133, 131, 131);
+    border-radius: 3px;
+    background-color: rgb(236, 241, 246);
+}
+
+.six .login-page .password::placeholder {
+  position: relative;
+  font-family:'Times New Roman';
+  font-size: 22px;
+  color: rgb(68, 66, 66);
+  left: 5px;
+}
+
+.six .login-page .password:focus {
+  outline: none;
+}
+
+.six .login-page a {
+  position: relative;
+  top: 80px;
+  left: 53px;
+  font-size: 18px;
+  text-decoration:none;
+  text-decoration-thickness: 0.5px;
+  /* width: 120px; */
+  /* background-color: #944949; */
+}
+
+.six .login-page .btn-login {
+  position: relative;
+  top: 150px;
+  width: 260px;
+  height: 35px;
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  border: 1px solid rgb(76, 70, 70);
+}
+
+.six .login-page .new-btn {
+  position: relative;
+  top: 140px;
+  height: 35px;
+  width: 260px;
+  left: 130px;
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  border: 1px solid rgb(76, 70, 70);
+}
+
+.six .login-page .or {
+  position: relative;
+  top: 135px;
+  left: 220px;
+  padding-left: 25px;
+  font-size: 25px;
+  background-color: white;
+  width: 50px;
+}
+
+.six .login-page .close {
+  position: relative;
+  left: 465px;
+  bottom: 380px;
+  font-size: 27px;
+}
+
+.six .login-page .hr {
+  position: relative;
+  top: 180px;
+}
+
+.seven {
+  position: relative;
+  left: 950px;
+  top: 190px;
+  border: 5px solid black;
+  color: black;
+  box-shadow: 5px 5px 8px 2px rgb(238, 210, 239);
+  background-color: rgb(47, 48, 48);
+  width: 500px;
+  height: 600px;
+}
+
+.seven h1{
+  position:relative;
+  left: 150px;
+  top: 0px;
+  color: blue;
+  font-size: 50px;
+  text-decoration: underline;
+  font-family: 'Times New Roman';
+}
+
+/* .seven p {
+  position: relative;
+  left: 10px;
+  bottom: 20px;
+} */
+ .seven hr {
+  position: relative;
+  bottom: 10px;
+  /* font-size: 30px; */
+  font-weight: bold;
+  color: #000000;
+ }
+
+.seven #first-name{
+  position: relative;
+  top: 10px;
+  left: 20px;
+  width: 200px;
+  height: 30px;
+  font-size: 22px;
+  font-family:'Times New Roman';
+  padding-left: 10px;
+  border: 1px solid rgb(133, 131, 131);
+  border-radius: 3px;
+  background-color: rgb(236, 241, 246);
+}
+
+.seven #last-name{
+  position: relative;
+  top: 10px;
+  left: 40px;
+  width: 200px;
+  height: 30px;
+  font-size: 22px;
+  font-family:'Times New Roman';
+  padding-left: 10px;
+  border: 1px solid rgb(133, 131, 131);
+  border-radius: 3px;
+  background-color: rgb(236, 241, 246);
+}
+
+.seven #number-email{
+  position: relative;
+  top: 40px;
+  left: 20px;
+  width: 440px;
+  height: 30px;
+  font-size: 22px;
+  font-family:'Times New Roman';
+  padding-left: 10px;
+  border: 1px solid rgb(133, 131, 131);
+  border-radius: 3px;
+  background-color: rgb(236, 241, 246);
+}
+
+.seven #new-password{
+  position: relative;
+  top: 70px;
+  left: 20px;
+  width: 440px;
+  height: 30px;
+  font-size: 22px;
+  font-family:'Times New Roman';
+  padding-left: 10px;
+  border: 1px solid rgb(133, 131, 131);
+  border-radius: 3px;
+  background-color: rgb(236, 241, 246);
+}
+
+.seven #first-name::placeholder {
+  position: relative;
+  font-family:'Times New Roman';
+  font-size: 22px;
+  color: rgb(68, 66, 66);
+  left: 5px;
+}
+
+.seven #first-name:focus {
+  outline: none;
+}
+
+.seven #last-name::placeholder {
+  position: relative;
+  font-family:'Times New Roman';
+  font-size: 22px;
+  color: rgb(68, 66, 66);
+  left: 5px;
+}
+
+.seven #last-name:focus {
+  outline: none;
+}
+
+.seven #number-email::placeholder {
+  position: relative;
+  font-family:'Times New Roman';
+  font-size: 22px;
+  color: rgb(68, 66, 66);
+  left: 5px;
+}
+
+.seven #number-email:focus {
+  outline: none;
+}
+
+.seven #new-password::placeholder {
+  position: relative;
+  font-family:'Times New Roman';
+  font-size: 22px;
+  color: rgb(68, 66, 66);
+  left: 5px;
+}
+
+.seven #new-password:focus {
+  outline: none;
+}
+
+.seven #male {
+  position: relative;
+  color: white;
+  top: 100px;
+  left: 20px;
+  font-size: 20px;
+}
+
+.seven #female {
+  color: white;
+  position: relative;
+  top: 110px;
+  left: 20px;
+  font-size: 20px;
+}
+
+.seven #other {
+  color: white;
+  position: relative;
+  left: 20px;
+  top: 120px;
+  font-size: 20px;
+}
+
+.seven .sign-up {
+  position: relative;
+  top: 150px;
+  height: 35px;
+  width: 260px;
+  left: 130px;
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  border: 1px solid rgb(76, 70, 70);
+}
+
+.seven p {
+  position: relative;
+  top: 180px;
+  left: 100px;
+  font-size: 20px;
+  color: green;
+  /* text-decoration: underline; */
+}
+
+.seven p .log-in {
+  position: relative;
+  /* top: 150px; */
+  width: 150px;
+  height: 25px;
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  border: 1px solid rgb(76, 70, 70);
+  border-radius: 8px;
+}
+
+.seven .close {
+  position: relative;
+  left: 465px;
+  bottom: 399px;
+  font-size: 27px;
+}
+
+.eight {
+  position: relative;
+  left: 950px;
+  top: 190px;
+  border: 5px solid black;
+  box-shadow: 5px 5px 8px 2px rgb(236, 225, 236);
+  background-color: rgb(58, 61, 61);
+  width: 500px;
+  height: 600px;
+  /* opacity: 0.8; */
+}
+
+.eight #google {
+  position: relative;
+  width: 200px;
+  height: 90px;
+  top: 20px;
+  left: 140px;
+/* background-color: red; */
+}
+
+.eight hr {
+  position: relative;
+  top: 20px;
+}
+
+.eight #btn-one {
+  position: relative;
+  top: 65px;
+  left: 75px;
+  width: 120px;
+  height: 30px;
+  border: 0.2px solid white;
+  font-size: 20px;
+  border-radius: 25px;
+  color: white;
+  background: linear-gradient(to right,
+  rgba(49, 103, 185),
+  rgba(48, 143, 199),
+  rgba(54, 38, 199));
+  background-color: transparent;
+}
+
+.eight #btn-two {
+  position: relative;
+  width: 120px;
+  height: 30px;
+  top: 67px;
+  left: 170px;
+  /* font-size: 20px; */
+  border: 0.2px solid white;
+  font-size: 20px;
+  border-radius: 25px;
+  color: white;
+  /* color: rgb(0, 0, 0); */
+  background: linear-gradient(to right,
+  rgba(49, 103, 185),
+  rgba(48, 143, 199),
+  rgba(54, 38, 199));
+  background-color: transparent;
+}
+
+.eight .g-log-email {
+position: relative;
+top: 130px;
+right: -100px;
+width: 280px;
+  height: 30px;
+  font-size: 22px;
+  font-family:'Times New Roman';
+  padding-left: 10px;
+  border: 1px solid rgb(133, 131, 131);
+  border-radius: 3px;
+  color: white;
+  background-color: black;
+}
+
+.eight .g-log-email::placeholder {
+  position: relative;
+  font-family:'Times New Roman';
+  font-size: 22px;
+  color: rgb(101, 100, 100);
+  left: 5px;
+}
+
+.eight .g-log-email:focus {
+  outline: none;
+}
+
+.eight .g-log-password {
+  position: relative;
+  top: 150px;
+  left: 100px;
+  width: 280px;
+  height: 30px;
+  font-size: 22px;
+  font-family:'Times New Roman';
+  padding-left: 10px;
+  border: 1px solid rgb(133, 131, 131);
+  /* border-top: none; */
+  /* border-bottom-right-radius: 20px; */
+  color: white;
+  background-color: black;
+}
+
+.eight .g-log-password::placeholder {
+  position: relative;
+  font-family:'Times New Roman';
+  font-size: 22px;
+  color: rgb(101, 100, 100);
+  left: 5px;
+}
+
+.eight .g-log-password:focus {
+  outline: none;
+}
+
+.eight .g-login {
+  position: relative;
+  top: 250px;
+}
+
+.eight #forget02 {
+  position: absolute;
+  text-decoration: none;
+  top: 395px;
+  right: 265px;
+  font-size: 18px;
+  color: blue;
+  font-weight: bolder;
+  opacity: 0.7;
+  /* background-color: red;
+  width: 200px; */
+}
+
+.eight .g-login {
+  position: absolute;
+  top: 440px;
+  right: 100px;
+width: 120px;
+height: 30px;
+font-size: 20px;
+/* padding-bottom: 5px;*/
+padding-top: -5px;
+background-color: rgb(79, 219, 182);
+color: blue;
+}
+
+.eight .g-login:focus {
+  outline: none;
+}
+
+.eight .x-mark01 {
+  position: absolute;
+  color: black;
+  /* width: 100px; */
+  font-size: 25px;
+  left: 465px;
+  bottom: 560px;
+}
+
+/* ----------------------- */
+
+.nine {
+  position: relative;
+  left: 950px;
+  top: 190px;
+  border: 5px solid black;
+  box-shadow: 5px 5px 8px 2px rgb(236, 225, 236);
+  background-color: rgb(58, 61, 61);
+  width: 500px;
+  height: 600px;
+  /* opacity: 0.8; */
+}
+
+.nine #google {
+  position: relative;
+  width: 200px;
+  height: 90px;
+  top: 20px;
+  left: 140px;
+/* background-color: red; */
+}
+
+.nine hr {
+  position: relative;
+  top: 20px;
+}
+
+.nine #btn-three {
+  position: relative;
+  top: 65px;
+  left: 75px;
+  width: 120px;
+  height: 30px;
+  border: 0.2px solid white;
+  font-size: 20px;
+  border-radius: 25px;
+  color: white;
+  background: linear-gradient(to right,
+  rgba(49, 103, 185),
+  rgba(48, 143, 199),
+  rgba(54, 38, 199));
+  background-color: transparent;
+}
+
+.nine #btn-four {
+  position: relative;
+  width: 120px;
+  height: 30px;
+  top: 67px;
+  left: 170px;
+  /* font-size: 20px; */
+  border: 0.2px solid white;
+  font-size: 20px;
+  border-radius: 25px;
+  color: white;
+  /* color: rgb(0, 0, 0); */
+  background: linear-gradient(to right,
+  rgba(49, 103, 185),
+  rgba(48, 143, 199),
+  rgba(54, 38, 199));
+  background-color: transparent;
+}
+
+.nine .g-log-email {
+position: relative;
+top: 130px;
+right: -100px;
+width: 280px;
+  height: 30px;
+  font-size: 22px;
+  font-family:'Times New Roman';
+  padding-left: 10px;
+  border: 1px solid rgb(133, 131, 131);
+  border-radius: 3px;
+  color: white;
+  background-color: black;
+}
+
+.nine .g-log-email::placeholder {
+  position: relative;
+  font-family:'Times New Roman';
+  font-size: 22px;
+  color: rgb(101, 100, 100);
+  left: 5px;
+}
+
+.nine .g-log-email:focus {
+  outline: none;
+}
+
+.nine .g-log-password {
+  position: relative;
+  top: 150px;
+  left: 100px;
+  width: 280px;
+  height: 30px;
+  font-size: 22px;
+  font-family:'Times New Roman';
+  padding-left: 10px;
+  border: 1px solid rgb(133, 131, 131);
+  /* border-top: none; */
+  /* border-bottom-right-radius: 20px; */
+  color: white;
+  background-color: black;
+}
+
+.nine .g-log-password::placeholder {
+  position: relative;
+  font-family:'Times New Roman';
+  font-size: 22px;
+  color: rgb(101, 100, 100);
+  left: 5px;
+}
+
+.nine .g-log-password:focus {
+  outline: none;
+}
+
+.nine .g-log-corrent-pass {
+  position: relative;
+  top: 170px;
+  left: 100px;
+  width: 280px;
+  height: 30px;
+  font-size: 22px;
+  font-family:'Times New Roman';
+  padding-left: 10px;
+  border: 1px solid rgb(133, 131, 131);
+  /* border-top: none; */
+  /* border-bottom-right-radius: 20px; */
+  color: white;
+  background-color: black;
+}
+
+.nine .g-log-corrent-pass::placeholder {
+  position: relative;
+  font-family:'Times New Roman';
+  font-size: 22px;
+  color: rgb(101, 100, 100);
+  left: 5px;
+}
+
+.nine .g-log-corrent-pass:focus {
+  outline: none;
+}
+
+
+.nine .g-login {
+  position: relative;
+  top: 250px;
+}
+
+/* .eight #forget02 {
+  position: absolute;
+  text-decoration: none;
+  top: 395px;
+  right: 265px;
+  font-size: 18px;
+  color: blue;
+  font-weight: bolder;
+  opacity: 0.7;
+} */
+
+.nine .g-login {
+  position: absolute;
+  top: 470px;
+  right: 100px;
+width: 120px;
+height: 30px;
+font-size: 20px;
+/* padding-bottom: 5px;*/
+padding-top: -5px;
+background-color: rgb(79, 219, 182);
+color: blue;
+}
+
+.nine .g-login:focus {
+  outline: none;
+}
+
+.nine .x-mark02 {
+  position: absolute;
+  color: black;
+  /* width: 100px; */
+  font-size: 25px;
+  left: 465px;
+  bottom: 560px;
+}
