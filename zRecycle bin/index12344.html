@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <img src="https://my.alfred.edu/zoom/_images/foster-lake.jpg" alt="">
+    <img src="https://images.dog.ceo/breeds/bluetick/n02088632_3699.jpg" alt=""> -->
+
+    <b><h3>Get random image</h3></b>
+    <button class="govind">show image</button><br><br><br>
+    <img class="photo" alt="sorry"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
+    <script>
+        let btn2 = document.querySelector(".govind");
+let url2 = "https://dog.ceo/api/breeds/image/random";
+
+btn2.addEventListener( "click" , async() => {
+    console.log("image button was click!");
+    let link = await getimage();
+    let img = document.querySelector(".photo");
+    img.setAttribute("src", link);
+})
+
+async function getimage() {
+    try {
+        let res = await axios.get(url2);
+        // return res;
+        // console.log(res.data.message);
+        return res.data.message;    
+    }    
+    catch(e) {
+        console.log("error - ", e);
+    }
+}
+    </script>
+</body>
+</html>

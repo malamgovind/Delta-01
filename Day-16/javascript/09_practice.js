@@ -1,0 +1,14 @@
+let msg = "   help!   ";
+console.log(msg);
+newmsg = msg.trim().toUpperCase();
+console.log(newmsg);
+let str = "malamgovind";
+console.log(str);
+newstr = str.slice(5, 11), str.indexOf("go"), str.replace("go", "do");
+console.log(newstr);
+let nam = "malamgovind";
+console.log(nam);
+newnam = nam.slice(5, 11);
+console.log(newnam);
+new1nam = newnam.replace("go", "do");
+console.log(new1nam);

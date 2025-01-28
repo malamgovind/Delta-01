@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-color: lightyellow;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.voilet {
+    background-color: violet;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.flash {
+    background-color: white;
+}
+
+.green-userflash {
+    background-color: green;
+}
+
+.red-userflash {
+    background-color: red;
+}
+
+
+/* .wronge {
+    background-color: red;
+} */

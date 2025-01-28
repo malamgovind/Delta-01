@@ -1,0 +1,115 @@
+<!-- Form in HTML -->
+<!-- Form syntax:
+      <form>
+        content
+      </form> -->
+<!-- ####### type attributes:
+   <input type="text">
+   <input type="password">
+   <input type="number">
+   <input type="time">
+   <input type="color"> -->
+
+<!-- ############################  placeholder=""  ############################ -->
+<!-- @@@@@ placeholder used in input tag to show the placeholder text @@@@@ -->
+<!-- @@@@   Ex: <input type="text" placeholder="Enter your name">   @@@@ -->
+
+
+<html>
+
+<head>
+   <title> Form</title>
+
+   <style>
+      .none {
+         display: none;
+      }
+   </style>
+</head>
+
+<body>
+   <form action="05_action.html">
+      <label for="Name">Name</label> &nbsp; &nbsp;&nbsp;&nbsp; <input type="text" placeholder="Enter your Name"
+         id="Name" name="name"><br><br>
+      <label for="password" id="change">Password </label> &nbsp;<input type="password" placeholder="Enter password"
+         id="password" name="password" value="1234"><br><br>
+      <label for="number"> Number</label> &nbsp; &nbsp; <input type="number" placeholder="Enter Number" id="number"
+         name="number"><br><br>
+      <label for="time"> Time </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="time" id="time"
+         name="time"><br><br>
+      <label for="color"> Color </label> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="color" id="color" name="color"><br>
+      <br>
+      <!-- ############  Dropdown  ########## -->
+      <!-- <select name='profession' id="profession">
+                   <option value="student">student</option>
+                   <option value="dev">Developer</option>
+               </select>   -->
+      <label for="sub">select your subject</label>
+
+      <select id="sub">
+         <option>maths</option>
+         <option>phy</option>
+         <option>che</option>
+      </select>
+      <br><br>
+
+
+
+
+      <label for="checkbox">conform submit your data</label>
+      <input type="checkbox" id="checkbox" name="checkbox">
+      <div>
+         <label for="yes">Yes</label>
+         <input type="radio" id="yes" name="choice" value="yes">
+      </div>
+      <div>
+         <label for="no">No</label>
+         <input type="radio" id="no" name="choice" value="no">
+      </div>
+      <label for="feedback" id="flabel">Feedback</label>
+      <textarea placeholder="please give your helpfully answer" class="feedback" name="feedback" value="feedback"
+         rows="3" cols="50"></textarea>
+
+      <!-- ####### button Tag: ######## -->
+      <!-- @@@@@@@ button type: @@@@@@@ 
+              1. <button type="submit"> submit </button>
+             2. <button type="button"> do something </button>
+             3. <button type="reset"> so something </button> -->
+
+      <hr> <br> &nbsp;&nbsp;&nbsp;&nbsp;<button type="submit"> Submit </button>
+   </form>
+   <hr>
+   <div id="govind">
+      <h1>Malam Govind</h1>
+      <p>this is paragraph</p>
+      <p>Malam</p>
+      <p>Govind</p>
+      <p>devshibhai</p>
+   </div>
+   <img src="profile.jpg" width="100px" height="100px">
+
+
+   <!-- <div>
+      <h1>This is Java Script for classes manuplication</h1>
+      <button onclick="toogle()">Run Govind</button>
+      <div class="box" style="background-color: red; width: 100%; height: 100vh;"></div>
+   </div> -->
+
+
+   <button class="malam">click me</button>
+   <button id="govindM">tach me</button>
+   <hr>
+
+   <h1>Todo App</h1>
+   <form>
+      <input type="text" placeholder="Enter your task" class="input" />
+      <button type="button" style="background-color:lightblue;" class="todo">Add task</button>
+      <ul>
+         <li>Eat <button>Delete</button></li>
+         <li>Sleep <button>Delete</button></li>
+      </ul>
+   </form>
+   <script src="javascript/01_Dom.js"></script>
+</body>
+
+</html>

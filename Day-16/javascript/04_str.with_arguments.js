@@ -1,0 +1,1 @@
+let str = "i love gaming";
