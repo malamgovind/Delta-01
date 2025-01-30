@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
 .main_box {
-  background: url(../z900.jpg);
-  height:100vh;
-  background-repeat:no-repeat;
-  background-size:cover;
+    background: url(../z900.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.btn_one{
-    color:white;
+.btn_one {
+    color: white;
     font-size: 30px;
     font-weight: 700;
     position: absolute;
@@ -20,12 +20,12 @@
     transition: 0.5s;
 }
 
-.sidebar_menu{
+.sidebar_menu {
     position: fixed;
-    left:-300px;
+    left: -300px;
     height: 100vh;
-    width:300px;
-    background-color: rgb(255, 255, 255,0.2);
+    width: 300px;
+    background-color: rgb(255, 255, 255, 0.2);
     box-shadow: 0 0 5px rgb(255, 255, 255, 1);
     transition: 0.5s linear;
 }
@@ -41,16 +41,16 @@
 .sidebar_menu .logo a {
     position: absolute;
     left: 60px;
-    color:white;
+    color: white;
     text-decoration: none;
     font-size: 20px;
     font-weight: 400;
 }
 
-.sidebar_menu .btn_two{
+.sidebar_menu .btn_two {
     position: absolute;
     left: 275px;
-    color:grey;
+    color: grey;
     font-size: 25px;
     line-height: 60px;
     /* opacity: 0.2; */
@@ -69,7 +69,8 @@
     position: relative;
 }
 
-.sidebar_menu .menu i,a {
+.sidebar_menu .menu i,
+a {
     color: white;
     text-decoration: none;
 }
@@ -79,7 +80,7 @@
 }
 
 .sidebar_menu .social_media {
-    position:relative;
+    position: relative;
     left: 30%;
     top: 93%;
     padding-left: 10px;
@@ -101,7 +102,7 @@
 .btn_one:hover {
     font-size: 35px;
     /* transform: rotate(-400deg); */
-    transition: 0.5s; 
+    transition: 0.5s;
     color: rgb(106, 207, 185);
 }
 
@@ -115,13 +116,13 @@
 
 .sidebar_menu .social_media a:hover {
     opacity: 1;
-  color: blue;
+    color: blue;
 }
 
-#check:checked ~ .sidebar_menu {
-left: 0;
+#check:checked~.sidebar_menu {
+    left: 0;
 }
 
-#check:checked ~ .btn_one i {
+#check:checked~.btn_one i {
     opacity: 0;
 }
