@@ -9,3 +9,10 @@ function letsum(g, h) {
 letsum(10, 20);
 console.log(sum);
 
+
+//  function govind() {
+//     let g = prompt("enter value of g:");
+//     console.log(g);
+// }
+
+// letsum(govind(),prompt("enter vlaue of h:"))

@@ -3,7 +3,7 @@ const classinfo = {
         grade: "A",
         city: "junagdh"
     },
-    parth: {
+    pathu: {
         grade: "B",
         city: "dhari"
     },

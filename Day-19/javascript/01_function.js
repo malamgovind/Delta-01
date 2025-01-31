@@ -15,7 +15,8 @@ function print1ton() {
 }
 print1ton();
 function isadult() {
-    let age = 18;
+    let age = prompt("enter age:");
+    console.log(age);
     if (age >= 18) {
         console.log("age is adult:", age);
     }

@@ -3,4 +3,4 @@ function table(n) {
         console.log(i);
     }
 }
-table(2);
+table(10);

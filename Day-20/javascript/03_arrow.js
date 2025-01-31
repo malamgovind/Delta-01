@@ -9,3 +9,6 @@ let hellow = () => {
 };
 let govind = (a, b) => a * b;
 let not = (a, b) => a ** b;
+
+console.log(govind);
+console.log(not);
