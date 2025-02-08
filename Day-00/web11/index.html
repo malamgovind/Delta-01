@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smit CSC Info</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyDmWPMcky73vK5BpqWpe5RwlfkylkiiVBs",
+            authDomain: "smit-csc-info.firebaseapp.com",
+            projectId: "smit-csc-info",
+            storageBucket: "smit-csc-info.appspot.com",
+            messagingSenderId: "1076839007050",
+            appId: "1:1076839007050:web:XXXXXX",
+            measurementId: "G-XXXXXX"
+        };
+        const app = firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="photo/Logo.png" alt="Smit CSC Info Logo">
+            <h1>Smit CSC Info</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Content</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="#" class="login">Login</a>
+            <a href="#" class="signup">Sign Up</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Smit CSC Info</h1>
+            <p>Your One-Stop Solution for Government Schemes & Tutorials</p>
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+        <div class="custom-shape-divider-top-1738997079">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                    opacity=".25" class="shape-fill"></path>
+                <path
+                    d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                    opacity=".5" class="shape-fill"></path>
+                <path
+                    d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content">
+        <div class="container">
+            <div class="content-item">
+                <h2>Services</h2>
+                <p>We offer services related to government schemes and tutorials for all your needs.</p>
+            </div>
+            <div class="content-item">
+                <h2>Membership Plans</h2>
+                <p>Join our prime membership for exclusive benefits and content.</p>
+            </div>
+            <div class="content-item">
+                <h2>Support</h2>
+                <p>For any queries, reach out to our support team anytime.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We provide tutorials on various government schemes and help you with form filling and more!</p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <h2>Content</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/NiE64U4vqZM?si=qELyKJhwz3CLhl7P" allowfullscreen></iframe>
+        </div>
+        <h3 class="video-title">Teka Na Bhave Kharidi Online Registration Gujarat 2025</h3>
+        <p class="video-description">
+            આ વિડીયોમાં, તમે શીખશો કે "ટેકાના ભાવે ખરીદી" માટે ઓનલાઈન રજિસ્ટ્રેશન કેવી રીતે કરવું.
+            સ્ટેપ-બાય-સ્ટેપ માર્ગદર્શન અને જરૂરી દસ્તાવેજો વિશે વિગતવાર માહિતી આપવામાં આવી છે.
+        </p>
+    </section>
+
+    <!-- Prime Content Section -->
+    <section class="content-section prime-content">
+        <h2>Prime Content</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/UnoQOn4A5nW7rng0" allowfullscreen></iframe>
+        </div>
+        <h3 class="video-title">Exclusive Prime Member Video</h3>
+        <p class="video-description">
+            આ "પ્રાઈમ મેમ્બરશીપ" માટે ખાસ વિડિયો છે. અહીં ખાસ ટિપ્સ અને એક્સક્લુસિવ ગાઈડન્સ આપવામાં આવશે.
+        </p>
+    </section>
+
+    <!-- Firebase Authentication Section -->
+    <div id="login-section">
+        <h2>Login for Prime Access</h2>
+        <button id="google-login">Sign in with Google</button>
+        <button id="logout" style="display: none;">Logout</button>
+    </div>
+
+    <div id="prime-content" style="display: none;">
+        <h2>Exclusive Prime Content</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/UnoQOn4A5nW7rng0" allowfullscreen></iframe>
+        </div>
+        <h3 class="video-title">Exclusive Prime Member Video</h3>
+        <p class="video-description">
+            આ **પ્રાઈમ મેમ્બરશીપ** માટે ખાસ વિડિયો છે. અહીં ખાસ ટિપ્સ અને એક્સક્લુસિવ ગાઈડન્સ આપવામાં આવશે.
+        </p>
+    </div>
+
+
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <div class="service-container grid grid-two--cols">
+            <div class="service-item">
+                <div class="service-icon">
+                    <!-- Presentation -->
+                    <img src="photo/presentation.png" alt="Presentation.png" class="service-img">
+                </div>
+                <div class="service-description">
+                    <h3>Presentation</h3>
+                    <p>Store and download presentations related to various schemes and plans.</p>
+                    <a href="link_to_presentation.pdf" download>Download</a>
+                </div>
+            </div>
+            <div class="service-item" id="service-01">
+                <div class="service-icon">
+                    <!-- PDF Logo -->
+                    <img src="photo/PDF.png" alt="PDF" class="service-img">
+                </div>
+                <div class="service-description">
+                    <h3>PDFs</h3>
+                    <p>Access all important PDFs for plans and documentation.</p>
+                    <a href="link_to_pdf.pdf" download>Download</a>
+                </div>
+            </div>
+            <div class="service-item">
+                <div class="service-icon">
+                    <!-- Document Logo -->
+                    <img src="photo/Document.png" alt="Document" class="service-img">
+                </div>
+                <div class="service-description">
+                    <h3>Documents</h3>
+                    <p>Find and download various documents regarding government schemes.</p>
+                    <a href="link_to_document.pdf" download>Download</a>
+                </div>
+            </div>
+            <div class="service-item" id="service-01">
+                <div class="service-icon">
+                    <!-- Other Logo -->
+                    <img src="photo/Other.png" alt="Other" class="service-img">
+                </div>
+                <div class="service-description">
+                    <h3>Other</h3>
+                    <p>Store and download other types of documents and resources.</p>
+                    <a href="link_to_other_resource.pdf" download>Download</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="membership" class="membership-section">
+        <div class="membership-container">
+            <h2 class="membership-title">Smit CSC Info Prime Membership</h2>
+            <p class="membership-intro">
+                <strong>તમે સરકારની નવી યોજનાઓનો લાભ લેવા માંગો છો? અથવા ઓનલાઈન ફોર્મ ભરવામાં ટેકનિકલ મુશ્કેલીનો સામનો
+                    કરવો
+                    પડે છે?</strong><br>
+                હવે આ બધું સરળ થશે!<br><br>
+                <span class="highlighted-text">Smit CSC Info</span> લઈને આવ્યું છે <strong>Prime Membership</strong>,
+                માત્ર
+                ₹299 માસિકમાં!
+            </p>
+
+            <h3 class="membership-benefits-title">🎯 Prime Membership ના વિશેષ લાભો:</h3>
+
+            <div class="grid grid-three--cols">
+
+                <div class="why-choose--div">
+                    <div class="icon">
+                        <img src="photo/scheme.png" alt="scheme">
+                    </div>
+                    <h3 class="section-common--title">
+                        સરકારી યોજનાઓનું સંપૂર્ણ માર્ગદર્શન:
+                    </h3>
+                    <p>
+                        કેન્દ્ર અને રાજ્ય સરકારની તમામ નવી યોજનાઓનો સરળ રીતે લાભ લો.
+                    </p>
+                </div>
+
+                <div class="why-choose--div">
+                    <div class="icon">
+                        <img src="photo/tecnical.png" alt="tecnical">
+                    </div>
+                    <h3 class="section-common--title">
+                        લાઈવ માર્ગદર્શન અને ટેક્નિકલ સપોર્ટ:
+                    </h3>
+                    <p>
+                        યોજનાઓ પર લાઈવ સમજૂતી અને ફોર્મની ટેકનિકલ સમસ્યાઓ માટે હંમેશા મદદ ઉપલબ્ધ.
+                    </p>
+                </div>
+
+                <div class="why-choose--div">
+                    <div class="icon">
+                        <img src="photo/id.png" alt="id">
+                    </div>
+                    <h3 class="section-common--title">
+                        કામ માટે જરૂરી ID અને પ્રોસેસની સંપૂર્ણ જાણકારી:
+                    </h3>
+                    <p>
+                        - કોમન સર્વિસ સેન્ટર <br>
+                        - TEC સર્ટિફિકેટ <br>
+                        - યુસીએલ સેવાઓ <br>
+                        - પાન કાર્ડ આઈડી અને વધુ...
+                    </p>
+                </div>
+
+                <div class="why-choose--div">
+                    <div class="icon">
+                        <img src="photo/knowledge.png" alt="knowledge">
+                    </div>
+                    <h3 class="section-common--title">
+                        Prime Membership સર્ટિફિકેટ:
+                    </h3>
+                    <p>
+                        તમારા નોલેજ અને સ્કિલ્સમાં વધારો કરી કાર્યક્ષેત્રમાં નવી ઉંચાઈઓ મેળવો.
+                    </p>
+                </div>
+
+                <div class="why-choose--div">
+                    <div class="icon">
+                        <img src="photo/business.png" alt="bisiness">
+                    </div>
+                    <h3 class="section-common--title">
+                        ઝીરો થી હીરો સુધીનું માર્ગદર્શન:
+                    </h3>
+                    <p>
+                        તમારા બિઝનેસને નવી સીમાએ લઈ જાવ!
+                    </p>
+                </div>
+            </div>
+
+
+
+            <!-- <ul class="benefits-list">
+            <li>1️⃣ <strong>સરકારી યોજનાઓનું સંપૂર્ણ માર્ગદર્શન:</strong>
+                કેન્દ્ર અને રાજ્ય સરકારની તમામ નવી યોજનાઓનો સરળ રીતે લાભ લો.
+            </li>
+            <li>2️⃣ <strong>લાઈવ માર્ગદર્શન અને ટેક્નિકલ સપોર્ટ:</strong>
+                યોજનાઓ પર લાઈવ સમજૂતી અને ફોર્મની ટેકનિકલ સમસ્યાઓ માટે હંમેશા મદદ ઉપલબ્ધ.
+            </li>
+            <li>3️⃣ <strong>કામ માટે જરૂરી ID અને પ્રોસેસની સંપૂર્ણ જાણકારી:</strong>
+                - કોમન સર્વિસ સેન્ટર <br>
+                - TEC સર્ટિફિકેટ <br>
+                - યુસીએલ સેવાઓ <br>
+                - પાન કાર્ડ આઈડી અને વધુ...
+            </li>
+            <li>4️⃣ <strong>Prime Membership સર્ટિફિકેટ:</strong>
+                તમારા નોલેજ અને સ્કિલ્સમાં વધારો કરી કાર્યક્ષેત્રમાં નવી ઉંચાઈઓ મેળવો.
+            </li>
+            <li>5️⃣ <strong>ઝીરો થી હીરો સુધીનું માર્ગદર્શન:</strong>
+                તમારા બિઝનેસને નવી સીમાએ લઈ જાવ!
+            </li>
+        </ul> -->
+
+            <div class="membership-plans">
+                <h3 class="plans-title">Membership Plans:</h3>
+                <div class="plan year002">
+                    <h4>1 Month</h4>
+                    <p>₹299</p>
+                </div>
+                <div class="plan">
+                    <h4>3 Months</h4>
+                    <p><del>₹899</del> ₹799 (₹100 discount)</p>
+                </div>
+                <div class="plan year001" id="year01">
+                    <h4>1 Year</h4>
+                    <p><del>₹2999</del> ₹2499<br> (₹500 discount)</p>
+                </div>
+            </div>
+
+            <p class="call-to-action">
+                💡 <strong>હવે જ મેમ્બરશીપ લો અને સરકારની તમામ યોજનાઓનો લાભ સરળતાથી મેળવો!</strong><br>
+                <span class="highlighted-text">જોનાર દરેક માટે એક યુનિક અવસર!</span><br><br>
+                ✨ <strong>Smit CSC Info સાથે તમારું ભવિષ્ય સાફ અને સફળ બનાવો!</strong>
+            </p>
+
+            <a href="membership_signup.html" class="join-btn">Prime Membership Join Now</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
