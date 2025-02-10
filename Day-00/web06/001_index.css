@@ -19,19 +19,19 @@
 } */
 
 .one img {
- position: relative;
+  position: relative;
   width: 600px;
   top: 265px;
   left: 300px;
 }
 
-.one .hed1{
- position: relative;
- font-size:60px;
- font-weight: 800;
- left: 950px;
- top: -300px;
- /* color: white; */
+.one .hed1 {
+  position: relative;
+  font-size: 60px;
+  font-weight: 800;
+  left: 950px;
+  top: -300px;
+  /* color: white; */
 }
 
 .one .hed1 h5 {
@@ -39,8 +39,8 @@
 }
 
 .one .hed1 p {
-height: 30px;
-margin-top: -50px;
+  height: 30px;
+  margin-top: -50px;
 }
 
 .one .hed1 #play {
@@ -58,32 +58,43 @@ margin-top: -50px;
   width: 2410px;
   height: 1080px;
   animation: govind 5s linear;
-  }
+}
 
 @keyframes govind {
-  0% { opacity: 0; }
-  50% {opacity: 0.5;}
-  75% {opacity: 1;}
-  100% { opacity: 1.4;}
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1.4;
+  }
 }
 
 .three {
-    display: flex;
-    /* background-color: red; */
-    justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      height: 100vh;
-      margin: 0;
-      /* background-color: #f03838; */
-      font-family: Arial, sans-serif;
-      background-image: url(/00_project/06-web/3.jpg);
-      /* background-size:cover; */
-      /* background-repeat: no-repeat; */
-      /* background-size: auto; */
-      background-repeat: no-repeat;
-      width: 2410px;
-      height: 980px;
+  display: flex;
+  /* background-color: red; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  /* background-color: #f03838; */
+  font-family: Arial, sans-serif;
+  background-image: url(./3.jpg);
+  /* background-size:cover; */
+  /* background-repeat: no-repeat; */
+  /* background-size: auto; */
+  background-repeat: no-repeat;
+  width: 2410px;
+  height: 980px;
 }
 
 .three .h1 {
@@ -94,42 +105,42 @@ margin-top: -50px;
 }
 
 .three .loading-bar-contener {
-    width: 80%;
-    height: 16px;
-    background-color: #a88787;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 20px;
-    position: relative;
-    left: 250px;
-    top: 820px;
-    /* right: 40px; */
+  width: 80%;
+  height: 16px;
+  background-color: #a88787;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  position: relative;
+  left: 250px;
+  top: 820px;
+  /* right: 40px; */
 }
 
 .three .loading-bar {
-    height: 100%;
-      width: 0;
-      background-color: #f5e725;
-      transition: width 0.1s linear;
-      /* margin-top: -50px; */
+  height: 100%;
+  width: 0;
+  background-color: #f5e725;
+  transition: width 0.1s linear;
+  /* margin-top: -50px; */
 }
 
 .three .counter {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #000000;
-    position: relative;
-  }
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+  position: relative;
+}
 
-  .three #counter {
-    /* padding-left: 30px; */
-    width: 280px;
-    height: 50px;
-    top: 850px;
-    left: 1100px;
-    /* right: 50px; */
-    /* background-color: rgb(157, 174, 197); */
-  }
+.three #counter {
+  /* padding-left: 30px; */
+  width: 280px;
+  height: 50px;
+  top: 850px;
+  left: 1100px;
+  /* right: 50px; */
+  /* background-color: rgb(157, 174, 197); */
+}
 
 .four {
   background-color: black;
@@ -148,8 +159,8 @@ margin-top: -50px;
   padding-left: 3px;
   height: 320px;
   width: 630px;
-left: 900px;
-z-index: 1;
+  left: 900px;
+  z-index: 1;
 }
 
 .four .mix {
@@ -221,12 +232,12 @@ z-index: 1;
 
 .five {
   input[type="checkbox"] {
-    width: 25px; 
-    height: 25px; 
-}
+    width: 25px;
+    height: 25px;
+  }
 }
 
-.five .hed h1{
+.five .hed h1 {
   position: relative;
   color: yellow;
   text-align: right;
@@ -248,9 +259,9 @@ z-index: 1;
 .five #a1 {
   position: relative;
   left: 10px;
-top: 700px;
-font-size: 25px; 
-width: 700px;
+  top: 700px;
+  font-size: 25px;
+  width: 700px;
 }
 
 .five #a1 a {
@@ -260,9 +271,9 @@ width: 700px;
 .five #a2 {
   position: relative;
   left: 10px;
-top: 710px;
-font-size: 25px; 
-width: 700px;
+  top: 710px;
+  font-size: 25px;
+  width: 700px;
 }
 
 .five #a2 a {
@@ -274,7 +285,7 @@ width: 700px;
   height: 50px;
   font-size: 30px;
   color: white;
-border: 1px  solid black;
+  border: 1px solid black;
   background-color: blue;
 }
 
@@ -292,7 +303,7 @@ border: 1px  solid black;
   font-size: 25px;
   left: 30px;
   top: -30px;
-border: 2px solid black;
+  border: 2px solid black;
   background-color: white;
   color: black;
 }
@@ -302,15 +313,15 @@ border: 2px solid black;
   width: 150px;
   height: 40px;
   font-size: 25px;
-left: 225px;
-/* top: px; */
-bottom: 28px;
-border: 2px solid black;
-background-color: white;
+  left: 225px;
+  /* top: px; */
+  bottom: 28px;
+  border: 2px solid black;
+  background-color: white;
   color: black;
 }
 
-.five #bg-video{
+.five #bg-video {
   position: relative;
   width: 100%;
   height: 1090px;
@@ -333,7 +344,7 @@ background-color: white;
 }
 
 .six .detail h1 {
-  position:relative;
+  position: relative;
   left: 150px;
   top: 20px;
   color: blue;
@@ -355,7 +366,7 @@ background-color: white;
   width: 380px;
   height: 30px;
   font-size: 22px;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   padding-left: 10px;
   border: 1px solid rgb(133, 131, 131);
   border-radius: 3px;
@@ -364,7 +375,7 @@ background-color: white;
 
 .six .login-page .email::placeholder {
   position: relative;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   font-size: 22px;
   /* font-weight: bold; */
   color: rgb(68, 66, 66);
@@ -379,21 +390,21 @@ background-color: white;
 
 .six .login-page .password {
   position: relative;
-    top: 80px;
-    left: 50px;
-    width: 383px;
-    height: 30px;
-    font-size: 22px;
-  font-family:'Times New Roman';
-    padding-left: 10px;
-    border: 1px solid rgb(133, 131, 131);
-    border-radius: 3px;
-    background-color: rgb(236, 241, 246);
+  top: 80px;
+  left: 50px;
+  width: 383px;
+  height: 30px;
+  font-size: 22px;
+  font-family: 'Times New Roman';
+  padding-left: 10px;
+  border: 1px solid rgb(133, 131, 131);
+  border-radius: 3px;
+  background-color: rgb(236, 241, 246);
 }
 
 .six .login-page .password::placeholder {
   position: relative;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   font-size: 22px;
   color: rgb(68, 66, 66);
   left: 5px;
@@ -408,7 +419,7 @@ background-color: white;
   top: 80px;
   left: 53px;
   font-size: 18px;
-  text-decoration:none;
+  text-decoration: none;
   text-decoration-thickness: 0.5px;
   /* width: 120px; */
   /* background-color: #944949; */
@@ -471,8 +482,8 @@ background-color: white;
   height: 600px;
 }
 
-.seven h1{
-  position:relative;
+.seven h1 {
+  position: relative;
   left: 150px;
   top: 0px;
   color: blue;
@@ -486,64 +497,64 @@ background-color: white;
   left: 10px;
   bottom: 20px;
 } */
- .seven hr {
+.seven hr {
   position: relative;
   bottom: 10px;
   /* font-size: 30px; */
   font-weight: bold;
   color: #000000;
- }
+}
 
-.seven #first-name{
+.seven #first-name {
   position: relative;
   top: 10px;
   left: 20px;
   width: 200px;
   height: 30px;
   font-size: 22px;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   padding-left: 10px;
   border: 1px solid rgb(133, 131, 131);
   border-radius: 3px;
   background-color: rgb(236, 241, 246);
 }
 
-.seven #last-name{
+.seven #last-name {
   position: relative;
   top: 10px;
   left: 40px;
   width: 200px;
   height: 30px;
   font-size: 22px;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   padding-left: 10px;
   border: 1px solid rgb(133, 131, 131);
   border-radius: 3px;
   background-color: rgb(236, 241, 246);
 }
 
-.seven #number-email{
+.seven #number-email {
   position: relative;
   top: 40px;
   left: 20px;
   width: 440px;
   height: 30px;
   font-size: 22px;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   padding-left: 10px;
   border: 1px solid rgb(133, 131, 131);
   border-radius: 3px;
   background-color: rgb(236, 241, 246);
 }
 
-.seven #new-password{
+.seven #new-password {
   position: relative;
   top: 70px;
   left: 20px;
   width: 440px;
   height: 30px;
   font-size: 22px;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   padding-left: 10px;
   border: 1px solid rgb(133, 131, 131);
   border-radius: 3px;
@@ -552,7 +563,7 @@ background-color: white;
 
 .seven #first-name::placeholder {
   position: relative;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   font-size: 22px;
   color: rgb(68, 66, 66);
   left: 5px;
@@ -564,7 +575,7 @@ background-color: white;
 
 .seven #last-name::placeholder {
   position: relative;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   font-size: 22px;
   color: rgb(68, 66, 66);
   left: 5px;
@@ -576,7 +587,7 @@ background-color: white;
 
 .seven #number-email::placeholder {
   position: relative;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   font-size: 22px;
   color: rgb(68, 66, 66);
   left: 5px;
@@ -588,7 +599,7 @@ background-color: white;
 
 .seven #new-password::placeholder {
   position: relative;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   font-size: 22px;
   color: rgb(68, 66, 66);
   left: 5px;
@@ -680,7 +691,7 @@ background-color: white;
   height: 90px;
   top: 20px;
   left: 140px;
-/* background-color: red; */
+  /* background-color: red; */
 }
 
 .eight hr {
@@ -699,9 +710,9 @@ background-color: white;
   border-radius: 25px;
   color: white;
   background: linear-gradient(to right,
-  rgba(49, 103, 185),
-  rgba(48, 143, 199),
-  rgba(54, 38, 199));
+      rgba(49, 103, 185),
+      rgba(48, 143, 199),
+      rgba(54, 38, 199));
   background-color: transparent;
 }
 
@@ -718,20 +729,20 @@ background-color: white;
   color: white;
   /* color: rgb(0, 0, 0); */
   background: linear-gradient(to right,
-  rgba(49, 103, 185),
-  rgba(48, 143, 199),
-  rgba(54, 38, 199));
+      rgba(49, 103, 185),
+      rgba(48, 143, 199),
+      rgba(54, 38, 199));
   background-color: transparent;
 }
 
 .eight .g-log-email {
-position: relative;
-top: 130px;
-right: -100px;
-width: 280px;
+  position: relative;
+  top: 130px;
+  right: -100px;
+  width: 280px;
   height: 30px;
   font-size: 22px;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   padding-left: 10px;
   border: 1px solid rgb(133, 131, 131);
   border-radius: 3px;
@@ -741,7 +752,7 @@ width: 280px;
 
 .eight .g-log-email::placeholder {
   position: relative;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   font-size: 22px;
   color: rgb(101, 100, 100);
   left: 5px;
@@ -758,7 +769,7 @@ width: 280px;
   width: 280px;
   height: 30px;
   font-size: 22px;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   padding-left: 10px;
   border: 1px solid rgb(133, 131, 131);
   /* border-top: none; */
@@ -769,7 +780,7 @@ width: 280px;
 
 .eight .g-log-password::placeholder {
   position: relative;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   font-size: 22px;
   color: rgb(101, 100, 100);
   left: 5px;
@@ -801,13 +812,13 @@ width: 280px;
   position: absolute;
   top: 440px;
   right: 100px;
-width: 120px;
-height: 30px;
-font-size: 20px;
-/* padding-bottom: 5px;*/
-padding-top: -5px;
-background-color: rgb(79, 219, 182);
-color: blue;
+  width: 120px;
+  height: 30px;
+  font-size: 20px;
+  /* padding-bottom: 5px;*/
+  padding-top: -5px;
+  background-color: rgb(79, 219, 182);
+  color: blue;
 }
 
 .eight .g-login:focus {
@@ -843,7 +854,7 @@ color: blue;
   height: 90px;
   top: 20px;
   left: 140px;
-/* background-color: red; */
+  /* background-color: red; */
 }
 
 .nine hr {
@@ -862,9 +873,9 @@ color: blue;
   border-radius: 25px;
   color: white;
   background: linear-gradient(to right,
-  rgba(49, 103, 185),
-  rgba(48, 143, 199),
-  rgba(54, 38, 199));
+      rgba(49, 103, 185),
+      rgba(48, 143, 199),
+      rgba(54, 38, 199));
   background-color: transparent;
 }
 
@@ -881,20 +892,20 @@ color: blue;
   color: white;
   /* color: rgb(0, 0, 0); */
   background: linear-gradient(to right,
-  rgba(49, 103, 185),
-  rgba(48, 143, 199),
-  rgba(54, 38, 199));
+      rgba(49, 103, 185),
+      rgba(48, 143, 199),
+      rgba(54, 38, 199));
   background-color: transparent;
 }
 
 .nine .g-log-email {
-position: relative;
-top: 130px;
-right: -100px;
-width: 280px;
+  position: relative;
+  top: 130px;
+  right: -100px;
+  width: 280px;
   height: 30px;
   font-size: 22px;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   padding-left: 10px;
   border: 1px solid rgb(133, 131, 131);
   border-radius: 3px;
@@ -904,7 +915,7 @@ width: 280px;
 
 .nine .g-log-email::placeholder {
   position: relative;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   font-size: 22px;
   color: rgb(101, 100, 100);
   left: 5px;
@@ -921,7 +932,7 @@ width: 280px;
   width: 280px;
   height: 30px;
   font-size: 22px;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   padding-left: 10px;
   border: 1px solid rgb(133, 131, 131);
   /* border-top: none; */
@@ -932,7 +943,7 @@ width: 280px;
 
 .nine .g-log-password::placeholder {
   position: relative;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   font-size: 22px;
   color: rgb(101, 100, 100);
   left: 5px;
@@ -949,7 +960,7 @@ width: 280px;
   width: 280px;
   height: 30px;
   font-size: 22px;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   padding-left: 10px;
   border: 1px solid rgb(133, 131, 131);
   /* border-top: none; */
@@ -960,7 +971,7 @@ width: 280px;
 
 .nine .g-log-corrent-pass::placeholder {
   position: relative;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman';
   font-size: 22px;
   color: rgb(101, 100, 100);
   left: 5px;
@@ -991,13 +1002,13 @@ width: 280px;
   position: absolute;
   top: 470px;
   right: 100px;
-width: 120px;
-height: 30px;
-font-size: 20px;
-/* padding-bottom: 5px;*/
-padding-top: -5px;
-background-color: rgb(79, 219, 182);
-color: blue;
+  width: 120px;
+  height: 30px;
+  font-size: 20px;
+  /* padding-bottom: 5px;*/
+  padding-top: -5px;
+  background-color: rgb(79, 219, 182);
+  color: blue;
 }
 
 .nine .g-login:focus {

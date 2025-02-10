@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smit CSC Info</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Style.css">
 
     <!-- Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
@@ -26,11 +26,9 @@
 </head>
 
 <body>
-
     <header>
         <div class="logo">
-            <img src="photo/Logo.png" alt="Smit CSC Info Logo">
-            <h1>Smit CSC Info</h1>
+            <img src="./photo/Logo.png" alt="Smit CSC Info Logo">
         </div>
         <nav>
             <ul>
@@ -146,7 +144,7 @@
             <div class="service-item">
                 <div class="service-icon">
                     <!-- Presentation -->
-                    <img src="photo/presentation.png" alt="Presentation.png" class="service-img">
+                    <img src="./photo/presentation.png" alt="Presentation.png" class="service-img">
                 </div>
                 <div class="service-description">
                     <h3>Presentation</h3>
@@ -157,7 +155,7 @@
             <div class="service-item" id="service-01">
                 <div class="service-icon">
                     <!-- PDF Logo -->
-                    <img src="photo/PDF.png" alt="PDF" class="service-img">
+                    <img src="./photo/PDF.png" alt="PDF" class="service-img">
                 </div>
                 <div class="service-description">
                     <h3>PDFs</h3>
@@ -168,7 +166,7 @@
             <div class="service-item">
                 <div class="service-icon">
                     <!-- Document Logo -->
-                    <img src="photo/Document.png" alt="Document" class="service-img">
+                    <img src="./photo/Document.png" alt="Document" class="service-img">
                 </div>
                 <div class="service-description">
                     <h3>Documents</h3>
@@ -179,7 +177,7 @@
             <div class="service-item" id="service-01">
                 <div class="service-icon">
                     <!-- Other Logo -->
-                    <img src="photo/Other.png" alt="Other" class="service-img">
+                    <img src="./photo/Other.png" alt="Other" class="service-img">
                 </div>
                 <div class="service-description">
                     <h3>Other</h3>
@@ -209,7 +207,7 @@
 
                 <div class="why-choose--div">
                     <div class="icon">
-                        <img src="photo/scheme.png" alt="scheme">
+                        <img src="./photo/scheme.png" alt="scheme">
                     </div>
                     <h3 class="section-common--title">
                         સરકારી યોજનાઓનું સંપૂર્ણ માર્ગદર્શન:
@@ -221,7 +219,7 @@
 
                 <div class="why-choose--div">
                     <div class="icon">
-                        <img src="photo/tecnical.png" alt="tecnical">
+                        <img src="./photo/tecnical.png" alt="tecnical">
                     </div>
                     <h3 class="section-common--title">
                         લાઈવ માર્ગદર્શન અને ટેક્નિકલ સપોર્ટ:
@@ -233,7 +231,7 @@
 
                 <div class="why-choose--div">
                     <div class="icon">
-                        <img src="photo/id.png" alt="id">
+                        <img src="./photo/id.png" alt="id">
                     </div>
                     <h3 class="section-common--title">
                         કામ માટે જરૂરી ID અને પ્રોસેસની સંપૂર્ણ જાણકારી:
@@ -248,7 +246,7 @@
 
                 <div class="why-choose--div">
                     <div class="icon">
-                        <img src="photo/knowledge.png" alt="knowledge">
+                        <img src="./photo/knowledge.png" alt="knowledge">
                     </div>
                     <h3 class="section-common--title">
                         Prime Membership સર્ટિફિકેટ:
@@ -260,7 +258,7 @@
 
                 <div class="why-choose--div">
                     <div class="icon">
-                        <img src="photo/business.png" alt="bisiness">
+                        <img src="./photo/business.png" alt="bisiness">
                     </div>
                     <h3 class="section-common--title">
                         ઝીરો થી હીરો સુધીનું માર્ગદર્શન:
@@ -319,9 +317,114 @@
             <a href="membership_signup.html" class="join-btn">Prime Membership Join Now</a>
         </div>
     </section>
-
-    <script src="script.js"></script>
-
-</body>
-
-</html>
+    
+        <header>
+            <div>
+                <h1>Support</h1>
+                <p>Get 24/7 assistance for your queries</p>
+            </div>
+        </header>
+    
+        <section class="support-section">
+            <h2>📞 Support</h2>
+    
+            <div class="support-container">
+                <!-- Live Chat Box -->
+                <div class="support-card chat-box">
+                    <h3>💬 Live Chat</h3>
+                    <p>Get instant replies to your queries.</p>
+                    <button onclick="openChat()">Start Chat</button>
+                </div>
+    
+                <!-- Email Support -->
+                <div class="support-card email-support">
+                    <h3>📧 Email Support</h3>
+                    <p>Contact us via email for assistance.</p>
+                    <button> <a href="mailto:smitcscinfoyt@gmail.com" class="btn">Send Email</a> </button>
+                </div>
+    
+                <!-- Contact Us (Only for Prime Members) -->
+                <div class="support-card contact-us" id="prime-contact">
+                    <h3>⭐ Prime Member Support</h3>
+                    <p>Only Prime Members can directly contact our support team.</p>
+                    <button id="contactBtn">📞 Call Now</button>
+                </div>
+            </div>
+        </section>
+    
+            <section class="social-media-section">
+                <h2>🌐 Follow Us on Social Media</h2>
+        
+                <div class="social-container">
+                    <!-- WhatsApp Group -->
+                    <div class="social-card">
+                        <img src="./Icon/Whatsapp.png" alt="WhatsApp">
+                        <h3>WhatsApp Group</h3>
+                        <button class="social-btn" onclick="openSocialMedia('https://chat.whatsapp.com/CS5vmo9R3yXKxlvBHP0EYh', 'WhatsApp Group')">Join Now</button>
+                    </div>
+        
+                    <!-- Telegram Group -->
+                    <div class="social-card">
+                        <img src="./Icon/Telegram.png" alt="Telegram">
+                        <h3>Telegram Group</h3>
+                        <button class="social-btn" onclick="openSocialMedia('https://t.me/+PnazScJdJXI3MzVl', 'Telegram Group')">Join Now</button>
+                    </div>
+        
+                    <!-- Facebook -->
+                    <div class="social-card">
+                        <img src="./Icon/Facebook.png" alt="Facebook">
+                        <h3>Facebook Page</h3>
+                        <button class="social-btn" onclick="openSocialMedia('https://www.facebook.com', 'Facebook')">Follow Now</button>
+                    </div>
+        
+                    <!-- Instagram -->
+                    <div class="social-card">
+                        <img src="./Icon/Istagram.png" alt="Instagram">
+                        <h3>Instagram</h3>
+                        <button class="social-btn" onclick="openSocialMedia('https://www.instagram.com', 'Instagram')">Follow Now</button>
+                    </div>
+        
+                    <!-- YouTube -->
+                    <div class="social-card">
+                        <img src="./Icon/Youtube.png" alt="YouTube">
+                        <h3>YouTube Channel</h3>
+                        <button class="social-btn" onclick="openSocialMedia('https://youtube.com/@smitcscinfo?si=52sWP52hTe444Dgy', 'YouTube')">Subscribe Now</button>
+                    </div>
+                </div>
+            </section>
+        
+    
+        <!-- About Section -->
+        <div class="about-section">
+            <h1 class="title">About</h1>
+            <div class="divider"></div>
+            <p class="description">Smit CSC Info provides detailed guides on government schemes, online form filling, and digital services.</p>
+            
+            <!-- Features -->
+            <div class="about-features">
+                <div class="feature-box">
+                    <img src="./Icon/Our Mission.png" alt="Our Mission" width="50">
+                    <h3>Our Mission</h3>
+                    <p>To make online services easy and accessible for everyone through step-by-step guidance.</p>
+                </div>
+    
+                <div class="feature-box">
+                    <img src="./Icon//Why Choose Us.png" alt="Why Choose Us" width="50">
+                    <h3>Why Choose Us</h3>
+                    <p>✔ Step-by-Step Tutorials<br>✔ Trusted by 14,000+ Subscribers<br>✔ Dedicated Support</p>
+                </div>
+    
+                <div class="feature-box">
+                    <img src="./Icon/Terms and Conditions.png" alt="Terms & Condition" width="50">
+                    <h3>Terms & Condition</h3>
+                    <p>Prime members get exclusive content, priority support, and a <b>24-hour refund policy</b>.</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Blue Shape at the Bottom -->
+        <div class="footer-shape"></div>
+    
+    </body>
+    </html>
+    

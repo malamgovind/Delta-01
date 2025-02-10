@@ -73,4 +73,78 @@ auth.onAuthStateChanged((user) => {
     checkLoginState(user);
 });
 
+// Live Chat Alert
+function openChat() {
+    alert("🔹 Live Chat is coming soon!");
+}
 
+// Prime Member Contact Unlock
+document.getElementById("contactBtn").addEventListener("click", function() {
+    let isPrimeMember = confirm("Are you a Prime Member?");
+    if (isPrimeMember) {
+        document.getElementById("prime-contact").classList.add("unlocked");
+        window.location.href = "tel:7874080686"; // Call Link
+    } else {
+        alert("📢 This feature is available for Prime Members only!");
+    }
+});
+
+// Function to show alert and open link in a new tab
+function openSocialMedia(url, platform) {
+    let userConfirm = confirm(`You are about to visit ${platform}. Do you want to continue?`);
+    if (userConfirm) {
+        window.open(url, "_blank"); // Opens in a new tab
+    }
+}
+
+// Add hover effect on social buttons
+document.querySelectorAll('.social-btn').forEach(button => {
+    button.addEventListener("mouseover", function() {
+        this.style.transform = "scale(1.1)";
+    });
+
+    button.addEventListener("mouseout", function() {
+        this.style.transform = "scale(1)";
+    });
+});
+
+// Feature Box Click Effect
+document.querySelectorAll('.feature-box').forEach(box => {
+    box.addEventListener('click', () => {
+        box.style.background = "#d1ecf1";  // Light blue highlight
+        setTimeout(() => {
+            box.style.background = "#e3f2fd";
+        }, 500);
+    });
+});
+
+// Smooth Scroll Animation
+document.addEventListener("DOMContentLoaded", () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+// Mouse Hover Animation
+document.getElementById("mission-box").addEventListener("mouseover", function() {
+    this.style.transform = "rotateY(10deg)";
+    setTimeout(() => { this.style.transform = "rotateY(0deg)"; }, 300);
+});
+
+document.getElementById("choose-box").addEventListener("mouseover", function() {
+    this.style.transform = "rotateY(-10deg)";
+    setTimeout(() => { this.style.transform = "rotateY(0deg)"; }, 300);
+});
+
+document.getElementById("terms-box").addEventListener("mouseover", function() {
+    this.style.transform = "rotateX(10deg)";
+    setTimeout(() => { this.style.transform = "rotateX(0deg)"; }, 300);
+});
+
+// Feature Box Hover Effect
+document.querySelectorAll('.feature-box').forEach(box => {
+    box.addEventListener('mouseenter', () => {
+        box.style.background = "#e3f2fd";  // Light blue hover effect
+    });
+    box.addEventListener('mouseleave', () => {
+        box.style.background = "#ffffff";  // Back to white
+    });
+});

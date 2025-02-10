@@ -44,7 +44,7 @@ body {
     border: 2px solid black;
     box-shadow: 0 0 15px rgb(244, 236, 125);
     transition: 0.2s linear;
-    background: url(/00_project/03-web/IMG_20241018_114416.jpg);
+    background: url(./IMG_20241018_114416.jpg);
     background-size: cover;
     /* opacity: 0.5; */
     z-index: 2;

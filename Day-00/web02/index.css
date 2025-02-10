@@ -1,11 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    box-sizing: border-box ;
+    box-sizing: border-box;
 }
 
 body {
-    background: url(/00_project/02-web/sky.jpg);
+    background: url(./sky.jpg);
     background-repeat: no-repeat;
     /* width: 100vh; */
     background-size: cover;
@@ -14,7 +14,7 @@ body {
     padding-top: 80px;
 }
 
-h1{
+h1 {
     width: 350px;
     line-height: 70px;
     background-color: red;
@@ -22,6 +22,7 @@ h1{
     font-size: 70px;
     color: white;
 }
+
 #one {
     background: rgb(255, 66, 239);
     border: 2px;
@@ -38,7 +39,7 @@ h1{
     height: 37px;
     width: 130px;
     border: 1px solid white;
-border-radius: 20px;
+    border-radius: 20px;
 }
 
 /* div{

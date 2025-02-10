@@ -1,45 +1,45 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  #photo {
-    padding-top: 50%;
-    width: 200vh;
-    height: 1000px;
-    aspect-ratio: 16/9;
-    background-attachment: fixed;
-    color: yellow;
-    font-size: 28px;
-    text-transform: uppercase;
-    text-align: center;
-    justify-content: center;
-    text-decoration: underline;
-  }
+#photo {
+  padding-top: 50%;
+  width: 200vh;
+  height: 1000px;
+  aspect-ratio: 16/9;
+  background-attachment: fixed;
+  color: yellow;
+  font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  text-decoration: underline;
+}
 
-  .div-1 {
-    background-image: url(/00_project/08_web/photo/4.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+.div-1 {
+  background-image: url(./photo/4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-  .div-2 {
-    background-image: url(/00_project/08_web/photo/2.jpg);
-    background-size: cover;
-    background-position: center;
-  }
+.div-2 {
+  background-image: url(./photo/2.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
-  .div-3 {
-    background-image: url(/00_project/08_web/photo/3.jpg);
-    background-size: cover;
-    background-position: center;
-  }
+.div-3 {
+  background-image: url(./photo/3.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
-  .div-4 {
-    background-image: url(/00_project/08_web/photo/4.jpg);
-    background-size: cover;
-    background-position: center;
-  }
+.div-4 {
+  background-image: url(./photo/4.jpg);
+  background-size: cover;
+  background-position: center;
+}
