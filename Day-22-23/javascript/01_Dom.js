@@ -113,7 +113,7 @@ btn5.addEventListener("click", function () {
 
     let delbtn = document.createElement("button");
     delbtn.innerText = "delete";
-    delbtn.classList.add(".todo");
+    delbtn.classList.add("todo");
 
     item.appendChild(delbtn);
     ul.appendChild(item);
@@ -126,9 +126,9 @@ btn5.addEventListener("click", function () {
 //     consolke.log("clicked");
 // });
 
-let delbtns = document.querySelector(".todo");
-for (delbtn of delbtns) {
-    delbtn.addEventListener("click", function () {
+let delbtn01 = document.querySelector(".todo");
+for (delbtns of delbtn01) {
+    delbtns.addEventListener("click", function () {
         let par = this.parentElement;
         console.log(par);
         par.remove();
